@@ -1,0 +1,190 @@
+body
+{
+    font: normal normal normal 12px/normal Verdana;
+    margin: 100px;
+    background: #fff url('../img/bg_body.gif') repeat-x left top;
+}
+
+#wrapper
+{
+    margin: 0px auto;
+	padding: 10px;
+	width: 430px;
+}
+
+#logo
+{
+    margin-bottom: 10px;
+}
+
+#actions-table
+{
+    font: normal normal normal 12px/normal Tahoma;
+    border: none;
+    margin-bottom: 5px;
+}
+
+#actions-table td
+{
+    color: #015BB8;
+    cursor: pointer;
+}
+
+#actions-table td.spacer
+{
+    color: #c4c4c4;
+    cursor: default;
+}
+
+#account-table
+{
+    border: 1px solid #c4c4c4;
+	border-spacing: 0px 0px;
+	border-collapse: collapse;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#account-table td, th
+{
+    font: normal normal normal 12px/normal Verdana;
+    padding: 3px 10px 3px 6px;
+    border: none;
+}
+
+#account-table tbody tr
+{
+    border: 1px solid #c4c4c4;
+    cursor: pointer;
+}
+
+#account-table tbody tr.selected
+{
+    background-color: #58B437;
+}
+
+#account-table tr.light-green
+{
+    background-color: #d3dcef;
+    height: 20px;
+}
+
+#account-table thead #th-user
+{
+    width: 430px;
+}
+
+
+#add-account-form
+{
+    height: 45px;
+    display: none;
+}
+
+#add-account-form, #options-form
+{
+    background-color: #d3dcef;
+    border: 1px solid #c4c4c4;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#add-account-form input
+{
+    margin-left: 2px;
+    height: 21px;
+    width: 170px;
+}
+
+#add-account-form label
+{
+    font: normal normal normal 12px/normal Verdana;
+}
+
+
+
+#add-account, #save-options
+{
+    background: url('../img/button_r.gif') no-repeat 100% 0%;
+    display: inline-block;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 10px;
+    
+    cursor: pointer;
+    line-height: 23px;
+}
+
+span.buttonsl
+{
+    background: url('../img/button_l.gif') no-repeat 0% 0%;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 19px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+span.add-account-fix
+{
+    margin-top: 5px;
+}
+
+#error-form
+{
+    border: 1px solid #c4c4c4;
+    background-color: #f2f8c1;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#error-form p
+{
+    margin: 0px;
+}
+#error-form2
+{
+    border: 1px solid #c4c4c4;
+    background-color: #c1f8c8;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#error-form2 p
+{
+    margin: 0px;
+}
+
+span.close-button
+{
+    margin: 0px;
+    padding: 0px 5px 3px 5px;
+    color: #000;
+    cursor: pointer;
+    float: right;
+}
+
+
+
+#show-add-account-form, #remove-account, #close-add-account-form, .spacer
+{
+    display: none;
+}
+.helpBox{background:#fff;border:1px solid #c4c4c4;width:400px;}
+.helpTitle{background: #d3dcef;width:95%;color:#000;padding:10px;}
+.helpText{padding:15px;}
+
+.layer1 {
+    position: relative; /* Относительное позиционирование */
+    height: 30px; /* Высота блока */
+   }
+.layer2 {
+    position: fixed; /* Абсолютное позиционирование */
+    bottom: 0px; /* Положение от нижнего края */
+    left: 1px; /* Положение от правого края */
+    line-height: 1px;
+   }

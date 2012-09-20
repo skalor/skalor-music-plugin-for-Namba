@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+   
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="css/popup.css" type="text/css" />
+        <link rel="stylesheet" href="css/skin.css" type="text/css" />
+  		<script type="text/javascript" src="lib/jquery.min.js"></script>
+        
+        <script type="text/javascript"src="js/popup.js"></script>
+
+    </head>
+<body>
+
+<table Cellpadding=0 Cellspacing=0 border=0 style="width:100%;height:70px;margin-top:5px;background: url('../img/header_bg.gif') repeat-x left top; "><tr >
+					<td width="15%"  valign="center" align="center" height="35px">
+						<span style="cursor:pointer"><img src="/img/logo.png" style='padding: 0px 0px 0px 10px;'></img></span>
+					</td><td width="20%" valign="center" align="center" height="35px">
+						<div style="width:5%;float: left;">&nbsp;</div>
+						<div id="pl_prev" style="float: left; width: 15%;" class="pl-prev">&nbsp;</div>
+						<div id="pl_play" style="float: left; width: 15%;" class="pl-play">&nbsp;</div>
+						<div id="pl_pause"style="float: left; width: 15%;" class="pl-pause">&nbsp;</div>
+						<div id="pl_next" style="float: left; width: 15%;" class="pl-next">&nbsp;</div>
+						<div style="width:15%;float: right;">&nbsp;</div>
+						<div  title="shuffle" id="pl_shuffle"style="float: right; width: 15%;" class="pl-shuffle">&nbsp;</div>
+						<div title="no shuffle" id="pl_noshuffle" style="float: right; width: 15%;display:none" class="pl-noshuffle">&nbsp;</div>
+						<div style="width:5%;float: right;">&nbsp;</div>
+						</td>
+					<td width="7%">
+	   					<div id="load"><img src="/img/loading.gif"></img></div>
+   					</td>
+					<td width="48%" align="center" valign="middle" >
+						<table Cellpadding=0 Cellspacing=0 border=0 width=100%  style="overflow:hidden"> <tr ><td width="240px" >
+						<div id="pl_title" class="center"  style="width:240px;max-height:27px;float:left;color:grey; overflow:hidden; padding: 0px 10px 0 0;">&nbsp;</div>
+						</td><td align="right"  style='padding: 0 15px 0 0;'><div id="pl_refresh"  class="pl-refresh" style='float:right;'>&nbsp;</div>
+						</td></tr></table>
+						
+						
+					</td>
+					
+		</td></tr><tr>
+					
+					<td valign="bottom" style='padding: 0px 0px 0px 10px;' align="center">
+						<div id="pl-playList"  >&nbsp;</div>
+					</td >
+					<td valign="bottom" style='padding: 0px 0px 0px 13px;' align="left">
+						<div id="pl-favorite"  >&nbsp;</div>
+					</td><td></td><td style='padding: 0 15px 0 0;'>
+					<div id="sl1" style='float:left'></div><div id="cur_time" style='position: absolute; top: 52px; left: 355px;font: normal normal normal 8px/normal Verdana;color:grey'>00:00</div>
+					<div id="sl2" style='float:right'></div><div id="end_time" style='position: absolute; top: 52px; left: 560px;font: normal normal normal 8px/normal Verdana;color:grey'>00:00</div>
+						
+						
+						
+					</td></tr></table>
+<table Cellpadding=0 Cellspacing=0 border=0 style="width:100%;background: #f6f5f5"><tr><td width="45%" valign="top">
+		<div style="width : 100%; max-height : 350px; min-height : 300px; overflow:scroll;overflow-y:scroll;overflow-x:hidden; ">
+	           <table id="playList-table"  >
+					 <thead>
+  					<tr >
+    				</tr>
+					</thead>
+					</tfoot>
+					<tbody>
+					</tbody>
+	           	</table>
+	           	</div>
+
+</td><td valign="top">
+			
+<div style="width : 100%; max-height : 350px; min-height : 300px;overflow:scroll;overflow-y:scroll;overflow-x:hidden;">
+				<table  id="mp3playList-table" >
+  						<thead>
+      					<tr >
+        				</tr>
+   						</thead>
+						</tfoot>
+   						<tbody>
+   						</tbody>
+		       </table>
+		        </div>
+</td></tr></table>		
+		
+		
+		<span style='cursor:pointer'>
+			<table style='width:100%;height:40px; background: #acacac' ><tr><td align="center" width=60%> 
+				<div style="float: left;font: normal normal normal 14px/normal Verdana; color:#fff; padding:0 0 0 10px">Namba music. Plug-in for Google Chrome</div>
+				</td><td width=40%>
+				<div style="float: right;font: normal normal normal 14px/normal Verdana; color:#fff;padding:0 10px 0 0">© Powered by Namba - 2012</div>
+	   			</td></tr></table>
+       </span>
+
+           
+    </body>
+</html>

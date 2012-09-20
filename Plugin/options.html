@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+   
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Намба музыка - плагин для Google Chrome</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="css/options.css" type="text/css" />
+        <script type="text/javascript" src="lib/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="js/options.js"></script>
+
+    </head>
+    <body>
+        <div id="wrapper">
+           <img src="img/logo.png" id="logo"  />
+            <table id="actions-table">
+                <tbody>
+                    <tr>
+                      <!--     <td id="show-add-account-form">Добавить почтовый адрес</td>--> 
+                        <td class="spacer">  </td>
+                        <td id="remove-account">Сменить аккаунт</td>
+                        <td class="spacer">  </td>
+                     <!--    <td id="show-options-form">Настройки</td> -->
+                    </tr>
+                </tbody>
+            </table>
+            <table id="account-table">
+                <thead>
+                    <tr class="light-green">
+                        
+                        <th id="th-user">Пользователь Намба</th>
+                       
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr class="light-green">
+                        <td></td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                </tbody>
+            </table>
+            
+         <div id="add-account-form">
+         <table><tr><td>
+                <label for="username">Почтовый адрес:</label>
+                </td><td>
+                <input type="text" id="username" />
+                </td>
+                
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<span class="buttonsl add-account-fix"><span id="add-account">Добавить</span></span>
+                </td></tr>
+                </table>
+            </div>
+            <div id="error-form">
+                <p id="error-message"></p>
+            </div>
+            <div id="error-form2">
+                <p id="error-message2"></p>
+            </div>
+            
+        </div>
+        <div id="help" class="helpBox" style="display:none;position:absolute;">
+<p id="helpTitle" class="helpTitle"></p>
+<p id="helpText" class="helpText">Help text</p>
+</div>
+        <div class="layer1">
+   <div class="layer2">
+        <img src="img/key.jpg" id="mimg"  >
+         </div>
+  </div>
+    </body>
+</html>

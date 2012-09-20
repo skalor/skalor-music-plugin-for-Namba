@@ -1,0 +1,170 @@
+/**
+ * JoomLine mp3 player - Joomla mp3 player
+ *
+ * @version 1.3.5
+ * @package JoomLine mp3 player
+ * @author Anton Voynov (anton@joomline.ru)
+ * @copyright (C) 2010 by Anton Voynov(http://www.joomline.ru)
+ * @license GNU/GPL: http://www.gnu.org/copyleft/gpl.html
+ *
+ * If you fork this to create your own project,
+ * please make a reference to JoomLine someplace in your code
+ * and provide a link to http://www.joomline.ru
+ **/
+
+
+#titlePlaylist
+{
+	background-color: #0d88c1;
+    color:#fff;
+    text-align: center;
+}
+
+
+
+div.pl-prev {
+	position: relative;
+	
+	
+	width:7px;
+	height:11px;
+	cursor: pointer;
+	background: url("/img/prev.png")  no-repeat;
+	background-position: center center;
+}
+div.pl-prev:hover {
+	background: url("/img/prev_over.png")  no-repeat;
+	background-position: center center;
+}
+
+div.pl-play {
+	position: relative;
+	width:6px;
+	height:11px;
+	cursor: pointer;
+	background: url("/img/play.png")   no-repeat;
+	background-position: center center;
+}
+div.pl-play:hover {
+	background: url("/img/play_over.png")  no-repeat;
+	background-position: center center;
+}
+
+div.pl-pause {
+	position: relative;
+	width:6px;
+	height:11px;
+	cursor: pointer;
+	background: url("/img/pause.png")  no-repeat;
+	background-position: center center;
+	
+}
+div.pl-pause:hover {
+	background: url("/img/pause_over.png")  no-repeat;
+	background-position: center center;
+}
+
+
+
+div.pl-next {
+	position: relative;
+	width:7px;
+	height:11px;
+	cursor: pointer;
+	background: url("/img/next.png")  no-repeat;
+	background-position: center center;
+}
+div.pl-next:hover {
+	background: url("/img/next_over.png")  no-repeat;
+	background-position: center center;
+}
+div.pl-shuffle {
+	position: relative;
+	width:10px;
+	height:11px;
+	cursor: pointer;
+	background: url("/img/shuffle.png")  no-repeat;
+	background-position: center center;
+}
+div.pl-shuffle:hover {
+	background: url("/img/shuffle_over.png")  no-repeat;
+	background-position: center center;
+}
+div.pl-noshuffle {
+	position: relative;
+	width:10px;
+	height:11px;
+	cursor: pointer;
+	background: url("/img/noshuffle.png")  no-repeat;
+	background-position: center center;
+}
+div.pl-noshuffle:hover {
+	background: url("/img/noshuffle_over.png")  no-repeat;
+	background-position: center center;
+}
+
+div.pl-refresh {
+	position: relative;
+	width:22px;
+	height:21px;
+	cursor: pointer;
+	background: url("/img/refresh.png")  no-repeat;
+	background-position: center center;
+}
+div.pl-refresh:hover {
+	background: url("/img/refresh_over.png")  no-repeat;
+	background-position: center center;
+}
+
+#pl-playList.unselected
+{
+	width:96px;
+	height:31px;
+	background: url("/img/noactive_pl.png")  no-repeat;
+}
+#pl-favorite.unselected
+{
+	width:96px;
+	height:31px;
+	background: url("/img/noactive_fav.png")  no-repeat;
+}
+#pl-playList
+{
+	width:96px;
+	height:31px;
+	background: url("/img/active_pl.png")  no-repeat;
+}
+
+
+#pl-favorite
+{
+	width:96px;
+	height:31px;
+	background: url("/img/active_fav.png")  no-repeat;
+	color:#fff;
+    cursor: pointer;
+}
+#pl-playList.unselected:hover
+{
+	width:96px;
+	height:31px;
+	background: url("/img/noactive_pl_over.png")  no-repeat;
+	color:#fff;
+    cursor: pointer;
+}
+#pl-favorite.unselected:hover
+{
+	width:96px;
+	height:31px;
+	background: url("/img/noactive_fav_over.png")  no-repeat;
+	color:#fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
